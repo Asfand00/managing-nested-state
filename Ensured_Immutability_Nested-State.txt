@@ -1,0 +1,7 @@
+Ensured Immutability Nested State:
+
+When updating the nested `address` property, i created a new object for the updated `address` property to achieve immuntability. I used spread syntax to create a shallow copy of the `userProfile` object then i created a new object for the `addres`s property with updated values passed in the `updateAddress` function. This ensures the original state remains unchanged instead of modifying the state directly.
+
+Initialization of the userProfile state using the useState hook also helps as well and using setUserProfile to update the state correctly helps with immutability.  
+
+
